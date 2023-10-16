@@ -1,0 +1,126 @@
+{
+   "products":[
+        {
+            "id":1,
+           "isNew": "true",
+            "endirim": "20",
+            "img": ["src/img/card-img/h1-product-1-550x550.jpg",
+                    "src/img/card-img/product-1-gallery-1-150x150.jpg",
+                    "src/img/card-img/product-1-gallery-2-150x150.jpg",
+                    "src/img/card-img/product-1-gallery-3-150x150.jpg",
+                    "src/img/card-img/product-1-gallery-4-150x150.jpg"],
+            "itemName":"TABLE LAMP",
+            "itemPrice":"240",
+            "categorie":["Home Decor", "Lighting"],
+            "tags":["White", "Wood"]
+
+
+        },
+        {
+            "id":2,
+            "isNew": "false",
+             "endirim": "",
+             "img": ["src/img/card-img/h1-product-2-550x550.jpg",
+                     "src/img/card-img/product-2-gallery-1-150x150.jpg",
+                     "src/img/card-img/product-2-gallery-2-150x150.jpg",
+                     "src/img/card-img/product-2-gallery-3-150x150.jpg",
+                     "src/img/card-img/product-2-gallery-4-150x150.jpg"],
+             "itemName":"POTTERY VASE",
+             "itemPrice":"60",
+             "categorie":["Home Decor","Vases"],
+             "tags":["Antique","Pottery"]
+ 
+         },
+         {
+            "id":3,
+            "isNew": "false",
+             "endirim": "20",
+             "img": ["src/img/card-img/h1-product-3-1-550x550.jpg",
+                     "src/img/card-img/product-3-gallery-1-150x150.jpg",
+                     "src/img/card-img/product-3-gallery-2-150x150.jpg",
+                     "src/img/card-img/product-3-gallery-3-150x150.jpg",
+                     "src/img/card-img/product-3-gallery-4-150x150.jpg"],
+             "itemName":"ROSE HOLDBACK",
+             "itemPrice":"24",
+             "categorie":["Decoration","Home Decor"],
+             "tags":["Decoration","Rose"]
+ 
+         },
+         {
+            "id":4,
+            "isNew": "false",
+             "endirim": "",
+             "img": ["src/img/card-img/h1-product-4-550x550.jpg",
+                     "src/img/card-img/product-4-gallery-1-150x150.jpg",
+                     "src/img/card-img/product-4-gallery-2-150x150.jpg",
+                     "src/img/card-img/product-4-gallery-3-150x150.jpg",
+                     "src/img/card-img/product-4-gallery-4-150x150.jpg"],
+             "itemName":"NEWSPAPER STORAGE",
+             "itemPrice":"90",
+             "categorie":["Basics","Home Decor"],
+             "tags":["Boxes","Wood"]
+ 
+         },
+         {
+            "id":5,
+            "isNew": "true",
+             "endirim": "19",
+             "img": ["src/img/card-img/h1-product-5-550x550.jpg",
+                     "src/img/card-img/product-5-gallery-1-150x150.jpg",
+                     "src/img/card-img/product-5-gallery-2-150x150.jpg",
+                     "src/img/card-img/product-5-gallery-3-150x150.jpg",
+                     "src/img/card-img/product-5-gallery-4-150x150.jpg"],
+             "itemName":"WALL CLOCK",
+             "itemPrice":"110",
+             "categorie":["Basics", "Furniture", "Home Decor"],
+             "tags":["Decoration", "Modern"]
+ 
+         },
+         {
+            "id":6,
+            "isNew": "false",
+             "endirim": "",
+             "img": ["src/img/card-img/h1-product-6-550x550.jpg",
+                     "src/img/card-img/product-6-gallery-1-150x150.jpg",
+                     "src/img/card-img/product-6-gallery-2-150x150.jpg",
+                     "src/img/card-img/product-6-gallery-3-150x150.jpg",
+                     "src/img/card-img/product-6-gallery-4-150x150.jpg"],
+             "itemName":"DECO ACCESSORY",
+             "itemPrice":"15",
+             "categorie":["Basics","Home Decor"],
+             "tags":["Decoration","Modern"]
+ 
+         },
+         {
+            "id":7,
+            "isNew": "true",
+             "endirim": "19",
+             "img": ["src/img/card-img/h1-product-7-550x550.jpg",
+                     "src/img/card-img/product-7-gallery-1-150x150.jpg",
+                     "src/img/card-img/product-7-gallery-2-150x150.jpg",
+                     "src/img/card-img/product-7-gallery-3-150x150.jpg",
+                     "src/img/card-img/product-7-gallery-4-150x150.jpg"],
+             "itemName":"FLOWER VASE",
+             "itemPrice":"210",
+             "categorie":["Home Decor","Vases"],
+             "tags":["Modern","Pottery"]
+ 
+         },
+         {
+            "id":8,
+            "isNew": "false",
+             "endirim": "",
+             "img": ["src/img/card-img/h1-product-8-600x728.jpg",
+                     "src/img/card-img/product-8-gallery-1-150x150.jpg",
+                     "src/img/card-img/product-8-gallery-2-150x150.jpg",
+                     "src/img/card-img/product-8-gallery-3-150x150.jpg",
+                     "src/img/card-img/product-8-gallery-4-150x150.jpg"],
+             "itemName":"BASKET WITH HANDLES",
+             "itemPrice":"160",
+             "categorie":["Decoration","Home Decor"],
+             "tags":["Black","Modern"]
+ 
+         }
+
+    ]
+}

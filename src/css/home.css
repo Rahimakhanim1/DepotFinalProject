@@ -1,0 +1,340 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+} 
+
+:root{
+    --main-font-family: 'Catamaran', sans-serif;
+    --hover-color:#929292;
+}
+a{
+    text-decoration: none !important;
+    /* color: black !important; */
+}
+
+/* header section start */
+.main-container{
+    margin: 0 114px;
+    height:96px;
+    display: flex;
+
+}
+.internal-container{
+    display: flex;
+    width:100%;
+    position: relative;
+}
+
+.menu-list{
+    width:44%;
+    /* position: relative; */
+}
+.main-list a{
+    color:black;
+}
+.main-list .inline-list{
+    color:black;
+    position: absolute;
+    background-color: black;
+    top:100px;
+    /* padding:0 15px; */
+    transition: 1s;
+    height:0;
+    overflow: hidden;
+    letter-spacing: 0 !important;
+    
+    
+}
+.main-list .inline-list span{
+    font-size:12px;
+    margin-right:10px;
+}
+.home:hover .inline-list{
+    height: 360px;
+}
+.pages:hover .inline-list{
+    height:360px;
+}
+/* shop section items */
+.first-item{
+    color:red !important;
+}
+.aaa{
+    font-size: 100px;
+}
+.shop-inline-list{
+    display: flex;
+    overflow: hidden;
+    width:100%;
+    top:100px;
+    height:340px;
+    left:0;
+    transition: .5s;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+}
+.main-list .inline-list .shop-inline-list-item{
+   padding-left: 30px; 
+    position: relative;
+    margin:10px 0 10px 10px;
+    left:-15px;
+    font-size:12px;
+    transition: .2s;
+    color:var(--hover-color);
+}
+.shop-inline-list .inline-list-item{
+    margin:10px 0;
+    position: relative;
+    font-weight: 500 !important;
+}
+.shop:hover .shop-inline-list{
+    height:340px;  
+}
+.inline-list .first{
+    color:white !important;
+    left:-15px;
+    padding:0 30px;
+    position: relative;
+    margin:30px 0 10px 10px;
+    font-size:12px;
+    transition: .5s;    
+}
+.main-list .inline-list .inline-list-item:not(:has(span)){
+    padding:0 30px;
+    position: relative;
+    margin:10px 0 10px 10px;
+    left:-15px;
+    font-size:12px;
+    transition: .2s;
+    color:var(--hover-color);
+}
+.inline-list .inline-list-item:not(:has(span))::before, 
+.inline-list .shop-inline-list-item::before{
+    content:'🡢';
+    position: absolute;
+    left:10px;
+    top:-3px;
+    font-size:0;
+    display: none;
+}
+.inline-list .inline-list-item:not(:has(span)):hover,
+.inline-list .shop-inline-list-item:hover{
+    left:5px;
+    color:white;
+}
+.inline-list .inline-list-item:hover::before,
+.inline-list .shop-inline-list-item:hover::before{
+    display: block;  
+    font-size:12px;
+    animation:arrowShow .5s ease;
+}
+@keyframes arrowShow {
+    0%{
+        left:20px
+    }
+    100%{
+       left:10px;
+    }
+}
+.main-list{
+    display: flex;
+    height: 100%;
+    align-items: center;
+
+}
+.main-list .menu-list-item{
+    font-size: 11px;
+    letter-spacing:2px;
+    font-family: var(--main-font-family);
+    margin-left:45px;
+    transition: .5s;
+
+}
+.main-list .menu-list-item:hover{
+    color:var(--hover-color);
+}
+/* Header Dopet Name  */
+.site-name{
+    display: flex;
+    height: 100%;
+    width:12%;
+    justify-content: center;
+    align-items: center;
+}
+.site-name h5{
+    text-transform: uppercase;
+    font-family: var(--main-font-family);
+    color:black;
+    font-size:25px;
+    font-weight:600;
+    letter-spacing: 4px;
+    margin-bottom:0 !important;
+}
+.site-config{
+    width:44%;
+    display: flex;
+    justify-content: flex-end;
+}
+.config-list{
+    display: flex;
+    height: 100%;
+    width:100%;
+    align-items: center;
+    justify-content: flex-end;
+   
+}
+.config-list .config-list-item{
+    color:black;
+    text-transform: uppercase;
+    font-size:12px;
+    margin:0 10px;
+    font-weight: 600;
+    transition: .5s;
+    font-family: var(--main-font-family);
+}
+.cart span{
+    margin-left:5px;
+    color:var(--hover-color);
+    font-weight: 500 !important;
+}
+.wish-list span{
+    margin-left:3px;
+    color:var(--hover-color);
+    font-weight: 500 !important;
+}
+.wish-list:hover, .login-section:hover, .search-button svg:hover, .manu-bar i:hover{
+    color:var(--hover-color);
+}
+.login-section i{
+    margin-right:6px;
+}
+.config-list svg{
+    width:13px;
+    height:13px;
+    transform:rotateZ(90deg)
+}
+
+/* header section end */
+
+
+/*card section start*/
+.card-item-container{
+    margin: 0 114px;
+    display: flex;
+    justify-content: center;
+}
+.cards-section{
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    
+}
+.card-sections{
+    position: relative;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor:pointer;
+    transition: .5s;
+}
+.card{
+    width:297px;
+    /* padding:0 10px; */
+    padding: 0 25px 50px;
+}
+.card-img-sec{
+    position: relative;
+    font-family: "Catamaran",sans-serif;
+}
+.card-sections img{
+    width:287px;
+    height:348px;
+}
+.img-hover-item{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    bottom:4px;
+    left:25%;
+    width:134px;
+    height:0;
+    overflow: hidden;
+    background-color: black;
+    font-family: "Catamaran",sans-serif;
+    cursor:pointer;
+    color:white;
+    transition: .2s;
+}
+.card-sections:hover .img-hover-item{
+    height:26px;
+}
+.card-img-sec .about-item{
+    position: absolute;
+    padding:15px;
+    color:#929292;
+}
+.card-img-sec .item-endirim{
+    position: absolute;
+    right:0;
+    padding:15px;
+    color:#929292;
+}
+.img-hover-item #quick-look{
+    font-size: 12px;
+    padding:0 10px;
+   
+}
+.img-hover-item span{
+    /* width:22px;
+    height:25px; */
+    font-size: 19px;
+    padding:0 10px;
+    background-color:#929292;
+}
+
+.card-text-sec{
+    font-family: "Catamaran",sans-serif;
+
+}
+.add-to-cart-text{
+    display: none;
+    font-size: 12px;
+    transition: .5s;
+}
+.add-to-cart-text:hover{
+    color:black;
+}
+.card-sections:hover .add-to-cart-text{
+    display: block;
+}
+.card-sections:hover .item-price{
+    display: none;
+}
+.item-name{
+    margin-top:20px;
+}
+.item-price{
+    font-size: 12px;
+}
+.hover-text{
+    display: flex;
+    width: 100%;
+    color:#929292;
+    font-family: "catamaran",sans-serif;
+    justify-content: space-around;
+    transition: .5s;
+}
+
+/* card section end */
+/* media queries */
+/* @media max-width: {
+    
+} */
