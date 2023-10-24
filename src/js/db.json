@@ -12,13 +12,14 @@
             "itemName":"TABLE LAMP",
             "itemPrice":"240",
             "categorie":["Home Decor", "Lighting"],
-            "tags":["White", "Wood"]
-
+            "tags":["White", "Wood"],
+           "Color": "White",	
+           "Material":"Wood"
 
         },
         {
             "id":2,
-            "isNew": "false",
+            "isNew": "true",
              "endirim": "",
              "img": ["src/img/card-img/h1-product-2-550x550.jpg",
                      "src/img/card-img/product-2-gallery-1-150x150.jpg",
@@ -28,7 +29,9 @@
              "itemName":"POTTERY VASE",
              "itemPrice":"60",
              "categorie":["Home Decor","Vases"],
-             "tags":["Antique","Pottery"]
+             "tags":["Antique","Pottery"],
+             "Color": "Beige",	
+             "Material":"Concrete"
  
          },
          {
@@ -43,7 +46,9 @@
              "itemName":"ROSE HOLDBACK",
              "itemPrice":"24",
              "categorie":["Decoration","Home Decor"],
-             "tags":["Decoration","Rose"]
+             "tags":["Decoration","Rose"],
+             "Color": "Rose",	
+             "Material":"Wood"
  
          },
          {
@@ -58,7 +63,9 @@
              "itemName":"NEWSPAPER STORAGE",
              "itemPrice":"90",
              "categorie":["Basics","Home Decor"],
-             "tags":["Boxes","Wood"]
+             "tags":["Boxes","Wood"],
+             "Color":"Beige",
+             "Material":"Wood"
  
          },
          {
@@ -73,7 +80,9 @@
              "itemName":"WALL CLOCK",
              "itemPrice":"110",
              "categorie":["Basics", "Furniture", "Home Decor"],
-             "tags":["Decoration", "Modern"]
+             "tags":["Decoration", "Modern"],
+             "Color":"Black",
+             "Material":"Chrome"
  
          },
          {
@@ -88,7 +97,9 @@
              "itemName":"DECO ACCESSORY",
              "itemPrice":"15",
              "categorie":["Basics","Home Decor"],
-             "tags":["Decoration","Modern"]
+             "tags":["Decoration","Modern"],
+             "Color":"Beige",
+             "Material":"Wood"
  
          },
          {
@@ -103,7 +114,9 @@
              "itemName":"FLOWER VASE",
              "itemPrice":"210",
              "categorie":["Home Decor","Vases"],
-             "tags":["Modern","Pottery"]
+             "tags":["Modern","Pottery"],
+             "Color":"Gold",
+             "Material":"Metal"
  
          },
          {
@@ -118,9 +131,217 @@
              "itemName":"BASKET WITH HANDLES",
              "itemPrice":"160",
              "categorie":["Decoration","Home Decor"],
-             "tags":["Black","Modern"]
+             "tags":["Black","Modern"],
+             "Color":"Beige",
+             "Material":"Metal"
  
-         }
+         },
+         {
+                "id":9,
+                "isNew": "false",
+                 "endirim": "",
+                 "img": ["src/img/card-img/h3-product-2-550x550.jpg",
+                        "src/img/card-img/product-2-gallery-1-1-150x150.jpg",
+                        "src/img/card-img/product-2-gallery-2-1-150x150.jpg",
+                        "src/img/card-img/product-2-gallery-3-1-150x150.jpg",
+                        "src/img/card-img/product-2-gallery-4-1-150x150.jpg"],
+                 "itemName":"ELEGANT PENDANT",
+                 "itemPrice":"290",
+                 "categorie":["Furniture"],
+                 "tags":["Black","Modern"],
+                 "Color":"Black",
+                 "Material":"Chrome"
+     
+             },
+             {
+                "id":10,
+                "isNew": "false",
+                 "endirim": "",
+                 "img": ["src/img/card-img/h3-product-2-550x550.jpg",
+                        "src/img/card-img/product-2-gallery-1-1-150x150.jpg",
+                        "src/img/card-img/product-2-gallery-2-1-150x150.jpg",
+                        "src/img/card-img/product-2-gallery-3-1-150x150.jpg",
+                        "src/img/card-img/product-2-gallery-4-1-150x150.jpg"],
+                 "itemName":"FLOWERING CACTUS",
+                 "itemPrice":"290",
+                 "categorie":["Furniture"],
+                 "tags":["Decorative","Plant"],
+                 "Color":"White",
+                 "Material":"Concrete"
+     
+             },
+             {
+                "id":11,
+                "isNew": "false",
+                 "endirim": "",
+                 "img": ["src/img/card-img/h4-product-14-550x550.jpg",
+                        "src/img/card-img/product-14-gallery-1-150x150.jpg",
+                        "src/img/card-img/product-14-gallery-2-150x150.jpg",
+                        "src/img/card-img/product-14-gallery-3-150x150.jpg",
+                        "src/img/card-img/product-14-gallery-4-150x150.jpg"],
+                 "itemName":"CLEW",
+                 "itemPrice":"15",
+                 "categorie":["Accessories"],
+                 "tags":["Decoration","Modern"],
+                 "Color":"Beige",
+                 "Material":"Wood"
+     
+             },
+             {
+                "id":12,
+                "isNew": "false",
+                 "endirim": "",
+                 "img": ["src/img/card-img/h4-product-19-550x550.jpg",
+                        "src/img/card-img/product-19-gallery-1-150x150.jpg",
+                        "src/img/card-img/product-19-gallery-2-150x150.jpg",
+                        "src/img/card-img/product-19-gallery-3-150x150.jpg",
+                        "src/img/card-img/product-19-gallery-4-150x150.jpg"],
+                 "itemName":"DECORATIVE HORSE",
+                 "itemPrice":"40",
+                 "categorie":["Accessories","Hardwoods"],
+                 "tags":["Decoration","Rose"],
+                 "Color":"Black",
+                 "Material":"Wood"
+     
+             },
+             {
+                "id":13,
+                "isNew": "false",
+                 "endirim": "",
+                 "img": ["src/img/card-img/h4-product-20-550x550.jpg",
+                        "src/img/card-img/product-20-gallery-1-150x150.jpg",
+                        "src/img/card-img/product-20-gallery-2-150x150.jpg",
+                        "src/img/card-img/product-20-gallery-3-150x150.jpg",
+                        "src/img/card-img/product-20-gallery-4-150x150.jpg"],
+                 "itemName":"JAR",
+                 "itemPrice":"120",
+                 "categorie":["Accessories","Fancies"],
+                 "tags":["Decoration","Rose"],
+                 "Color":"Brown",
+                 "Material":"Concrete"
+     
+             },   
+             {
+                "id":14,
+                "isNew": "false",
+                 "endirim": "",
+                 "img": ["src/img/card-img/h4-product-25-550x550.jpg",
+                        "src/img/card-img/product-25-gallery-1-150x150.jpg",
+                        "src/img/card-img/product-25-gallery-2-150x150.jpg",
+                        "src/img/card-img/product-25-gallery-3-150x150.jpg",
+                        "src/img/card-img/product-25-gallery-4-150x150.jpg"],
+                 "itemName":"MINIMALISTIC CHAIR",
+                 "itemPrice":"135",
+                 "categorie":["Accessories","Decoration"],
+                 "tags":["Boxes","Wood"],
+                 "Color":"Beige",
+                 "Material":"Concrete"
+     
+             },   
+             {
+                "id":15,
+                "isNew": "false",
+                 "endirim": "",
+                 "img": ["src/img/card-img/h4-product-27-550x550.jpg",
+                        "src/img/card-img/product-27-gallery-1-150x150.jpg",
+                        "src/img/card-img/product-27-gallery-2-150x150.jpg",
+                        "src/img/card-img/product-27-gallery-3-150x150.jpg",
+                        "src/img/card-img/product-27-gallery-4-150x150.jpg"],
+                 "itemName":"PRICKLY CLOCK",
+                 "itemPrice":"110",
+                 "categorie":["Accessories","Decoration"],
+                 "tags":["Decoration","Modern"],
+                 "Color":"Brown",
+                 "Material":"Metal"
+     
+             },   
+             {
+                "id":16,
+                "isNew": "false",
+                 "endirim": "",
+                 "img": ["src/img/card-img/product-virtual-img-550x550.jpg",
+                        "src/img/card-img/product-virtual-gallery-1-150x150.jpg",
+                        "src/img/card-img/product-virtual-gallery-2-150x150.jpg",
+                        "src/img/card-img/product-virtual-gallery-3-150x150.jpg",
+                        "src/img/card-img/product-virtual-gallery-4-150x150.jpg"],
+                 "itemName":"VIRTUAL PRODUCT",
+                 "itemPrice":"350",
+                 "categorie":["Demo Products"],
+                 "tags":["Innovation","Virtual"],
+                 "Color":"Black",
+                 "Material":"Wood"
+     
+             },   
+             {
+                "id":17,
+                "isNew": "false",
+                 "endirim": "29",
+                 "img": ["src/img/card-img/product-affiliate-img-550x550.jpg",
+                        "src/img/card-img/product-affiliate-gallery-1-150x150.jpg",
+                        "src/img/card-img/product-affiliate-gallery-2-150x150.jpg",
+                        "src/img/card-img/product-affiliate-gallery-3-150x150.jpg",
+                        "src/img/card-img/product-affiliate-gallery-4-150x150.jpg"],
+                 "itemName":"EXTERNAL PRODUCT",
+                 "itemPrice":"250",
+                 "categorie":["Demo Products","Fancies"],
+                 "tags":["External"],
+                 "Color":"Beige",
+                 "Material":"Wood"
+     
+             },   
+             {
+                "id":18,
+                "isNew": "false",
+                 "endirim": "",
+                 "img": ["src/img/card-img/h6-product-46-550x550.jpg",
+                        "src/img/card-img/product-46-gallery-1-150x150.jpg",
+                        "src/img/card-img/product-46-gallery-2-150x150.jpg",
+                        "src/img/card-img/product-46-gallery-3-150x150.jpg",
+                        "src/img/card-img/product-46-gallery-4-150x150.jpg"],
+                 "itemName":"BED TIME",
+                 "itemPrice":"460",
+                 "categorie":["Luminous"],
+                 "tags":["Decorative","Plant"],
+                 "Color":"Beige",
+                 "Material":"Wood"
+     
+             },   
+             {
+                "id":19,
+                "isNew": "false",
+                 "endirim": "",
+                 "img": ["src/img/card-img/h5-product-28-550x550.jpg",
+                        "src/img/card-img/product-28-gallery-1-150x150.jpg",
+                        "src/img/card-img/product-28-gallery-2-150x150.jpg",
+                        "src/img/card-img/product-28-gallery-3-150x150.jpg",
+                        "src/img/card-img/product-28-gallery-4-150x150.jpg"],
+                 "itemName":"LIGHTHOUSE LANTERN",
+                 "itemPrice":"135",
+                 "categorie":["Hardwoods"],
+                 "tags":["Decoration","Rose"],
+                 "Color":"Brown",
+                 "Material":"Wood"
+     
+             },
+         {
+                "id":20,
+                "isNew": "false",
+                 "endirim": "",
+                 "img": ["src/img/card-img/h4-product-17-550x550.jpg",
+                        "src/img/card-img/product-17-gallery-1-150x150.jpg",
+                        "src/img/card-img/product-17-gallery-2-150x150.jpg",
+                        "src/img/card-img/product-17-gallery-3-150x150.jpg",
+                        "src/img/card-img/product-17-gallery-4-150x150.jpg"],
+                 "itemName":"ELEGANT PENDANT",
+                 "itemPrice":"65",
+                 "categorie":["Furniture"],
+                 "tags":["Black","Modern"],
+                 "Color":"Black",
+                 "Material":"Chrome"
+     
+             }
+          
+      
 
     ]
 }
