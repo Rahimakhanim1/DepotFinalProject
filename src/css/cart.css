@@ -474,6 +474,7 @@ ul{
 /* cart main section start */
 .cart-main-section{
     width:100%;
+    height: auto;
     display: flex;
     justify-content: center;
 }
@@ -538,6 +539,7 @@ a.button:hover{
     display: flex;
     flex-direction: column;
     width:65%;
+    height: auto;
 }
 .shopping-cart h3{
     font-size:24px;
@@ -545,24 +547,109 @@ a.button:hover{
     margin-bottom:8px;
     font-weight:500;
 }
-.shopping-cart-product{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height:111px;
+.cart-inner-container{
+    margin-bottom:50px;
+
+   
+}
+.table-head{
+    display: none;
+}
+.selected-shopping-item-table{
+    display: flex; 
+    flex-direction: column;
     margin:15px 0;
 }
 
 .remove-item-icon{
     width:10px;
     height:15px;
+    cursor: pointer;
 }
-.shopping-cart-product .product-image{
+.shopping-item .shopping-item-image{
+    padding:10px 20px;
+}
+.shopping-item-name a{
+    color:black;
+    font-family: "Catamaran",sans-serif;
+
+}
+.shopping-item .shopping-item-image img{
     width:92px;
     height:111px;
-  
 }
-.shopping-cart-product  input{
+table td{
+    padding:5px 10px;
+}
+.bottom-coupon-section{
+    width:100%;
+    height: 55px;
+    background-color: #f3f3f3;
+    margin:0 15px;
+}
+
+.bottom-coupon-section .first-section{
+    display: flex;
+    height: 100%;
+    border-top:2px solid #dddddd !important;
+    border-bottom:2px solid #dddddd !important;
+}
+.bottom-coupon-section .second-section{
+    margin:20px 0;
+   
+}
+.bottom-coupon-section a{
+    color:#929292;
+    font-family: "Catamaran",sans-serif;
+}
+.bottom-coupon-section a span{
+    margin-right:10px;
+}
+.bottom-coupon-section .first-section form{
+    width:50%;
+}
+.bottom-coupon-section .first-section input,
+.bottom-coupon-section .first-section .apply-coupon{
+    background-color: #f3f3f3;
+    height: 100%;
+    border: none;
+    cursor:pointer;
+    
+}
+.bottom-coupon-section .first-section .apply-coupon{
+    text-align:center;
+    font-weight:600;
+    font-family: "Catamaran",sans-serif;
+    letter-spacing: 2px;
+}
+.bottom-coupon-section .first-section .update-cart{
+    width:50%;
+    border: none;
+    background-color: #fff;
+    cursor:pointer;
+    font-weight:600;
+    font-family: "Catamaran",sans-serif;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+/* .shopping-item-price{
+    padding: 0 20px;
+} */
+/* .shopping-item .shopping-item-name a{
+    padding-left:40px;
+}
+.shopping-quantity{
+    padding:0 20px;
+}
+.shopping-item-total-price{
+    padding:0 20px;
+} */
+.shopping-item input{
     padding: 15px 0;
     height:54px;
     width: 100%;
@@ -572,8 +659,28 @@ a.button:hover{
 
 .cart-totals{
     width:30%;
-    height:100px;
-    background-color: brown;
+    height:auto;
+    background-color: #f6f6f6;
+    padding:35px;
+    margin-top:100px;
+}
+
+.cart-totals h2{
+    margin-bottom:30px;
+}
+.cart-totals th{
+    padding:0 20px 15px 0;
+    text-align:left;
+}
+.proceed-to-checkout{
+    margin-top:40px;
+}
+.cart-totals a{
+    padding:20px  80px;
+    color:white;
+    font-family: "Catamaran",sans-serif;
+    font-size:13px;
+    background-color: black;
 }
 /* cart main section end*/
 
@@ -1152,6 +1259,39 @@ a.button:hover{
     .cards-section{
         grid-template-columns: auto auto ;
         width:960px;
+    }
+    tbody .quick-look-quantity{
+        padding:20px;
+    }
+    .cart-inner-container{
+        flex-direction: column;
+        height:auto;
+       
+    }
+    .shopping-item-image{
+        display: none;
+    }
+    .cart-inner-container .shopping-cart{
+        width: 100%;
+        height:auto;
+    }
+    .cart-inner-container .cart-totals{
+        width: 100%;
+    }
+   
+    .bottom-coupon-section .first-section {
+        flex-direction: column;
+       height:110px;
+    }
+    .bottom-coupon-section .first-section form{
+        width:100%;
+        height: 50%;
+
+    }
+    .bottom-coupon-section .first-section .update-cart{
+        width:100%;
+        height: 50%;
+        
     }
 }
 @media (max-width:768px){

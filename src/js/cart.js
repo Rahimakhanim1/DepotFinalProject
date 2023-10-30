@@ -20,7 +20,7 @@ let quickLookContainer = document.querySelector(".quick-look-container");
 let cartInlineItems = document.querySelector(".cart-inline-items");
 let woocommerce = document.querySelector(".woocommerce");
 let shoppingCartProduct = document.querySelector(".cart-inner-container");
-let shoppingCart = document.querySelector(".shopping-cart");
+let tBody = document.querySelector("tbody");
 
 loginSection.addEventListener("click",function(){
     loginSectionContainer.style.display = "flex";
@@ -349,6 +349,17 @@ const ifCartIsEmpty = function(){
 }
 ifCartIsEmpty()
 
+function quantityPrice(element){
+    let basket = JSON.parse(localStorage.getItem("basket"));
+    for(let i = 0;i < basket.length; i++){
+        if (element.dataset.id == basket[i].id){
+             basket[i].count = element.value
+        }
+    }
+    if(element.value)
+    localStorage.setItem("basket",JSON.stringify(basket));
+}
+
 fetch("src/js/db.json").then(response => response.json()).then(
     cavab =>{
         let arr = cavab.products;
@@ -357,19 +368,18 @@ fetch("src/js/db.json").then(response => response.json()).then(
                 arr.forEach(element =>{
                 for(let i = 0; i<basket.length;i++){
                     if(element.id === basket[i].id){
-                        let shoppingElement = ` <div class="shopping-cart-product">
-                        <img class="remove-item-icon" src="src/img/icons8-close-501.png">
-                        <img class="product-image" src="${element.img[0]}">
-                        <h1 class="product-name">${element.itemName}</h1>
-                        <div class="product-price">$${element.itemPrice}</div>
-                        <form>
-                            <input type="number" id="quantity" class="quick-look-quantity" name="quantity" min="0" placeholder="Quantity">
-                            
-                        </form> 
-                        <div class="all-product-price">$${basket[i].count*element.itemPrice}</div> 
-    
-                    </div>`
-                     shoppingCart.innerHTML+= shoppingElement;
+                        let shoppingElement = `  <tr class="shopping-item">
+                        <td><img class="remove-item-icon" src="src/img/icons8-close-501.png" onclick="removeItemFromCart(this)" data-id="${element.id}"></td>
+                        <td class="shopping-item-image"><a href="#"><img src="${element.img[0]}"></a></td>
+                        <td class="shopping-item-name"><a href="#">${element.itemName}</a></td>
+                        <td class="shopping-item-price">$${element.itemPrice}</td>
+                        <td class="shopping-quantity">
+                            <form>
+                                <input type="number" data-id="${element.id}" onclick="quantityPrice(this)" class="quick-look-quantity" name="quantity" min="0" value = "${basket[i].count}">                          
+                            </form> </td>
+                        <td class="shopping-item-total-price">$${element.itemPrice*basket[i].count}</td>
+                    </tr>`
+                     tBody.innerHTML += shoppingElement;
                     }
                    
                 }

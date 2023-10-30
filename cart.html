@@ -432,24 +432,97 @@
         <div class="cart-inner-container">
             <div class="shopping-cart">
                 <h3>SHOPPING CART</h3>
-                <!-- <div class="shopping-cart-product">
-                    <img class="remove-item-icon" src="src\img\icons8-close-501.png">
-                    <img class="product-image" src="src\img\card-img\h1-product-2-550x550.jpg">
-                    <h1 class="product-name">Roseefffrfrfrfrffffffffffffffffffffffffff</h1>
-                    <div class="product-price">$42</div>
-                    <form>
-                        <input type="number" id="quantity" class="quick-look-quantity" name="quantity" min="0" placeholder="Quantity">
-                        
-                    </form> 
-                    <div class="all-product-price">$42</div> 
+                <div class="selected-shopping-item-table">
+                    <table>
+                        <thead class="table-head">
+                            <tr>
+                                <th>Remove</th>
+                                <th>Image</th>
+                                <th>Name</th>
+                                <th>price</th>
+                                <th>quantity</th>
+                                <th>totalprice</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- <tr class="shopping-item">
+                                <td><img class="remove-item-icon" src="src/img/icons8-close-501.png"></td>
+                                <td class="shopping-item-image"><a href="#"><img src="src\img\card-img\h1-product-1-550x550.jpg"></a></td>
+                                <td class="shopping-item-name"><a href="#">Rosefjmkmfkmdkfmkf</a></td>
+                                <td class="shopping-item-price">$646</td>
+                                <td class="shopping-quantity">
+                                    <form>
+                                        <input type="number" id="quantity" class="quick-look-quantity" name="quantity" min="0" placeholder="Quantity">                          
+                                    </form> </td>
+                                <td class="shopping-item-total-price">$643756</td>
+                            </tr> -->
+                         
+                       
+                        </tbody>
+                    </table>
 
-                </div> -->
-                
+                    <div class="bottom-coupon-section">
+                        <div class="first-section">
+                            <form>
+                                <input type="text" placeholder="Coupon code" name="coupon code">
+                                <button class="apply-coupon">APPLY COUPONT</button>
+                            </form>
+                            <button class="update-cart">UPDATE CART</button>
+                        </div>
+                        <div class="second-section">
+                            <a href="#"><span>&#8592;</span>Go Back Shopping</a>
+                        </div>
+                    </div>
+                </div>
+               
+                <!-- <div class="cupoun-cart-section" style="background-color:red;width:100%;height:340px;"></div> -->
+                        
             </div>
 
 
             <div class="cart-totals">
                 <h2>CART TOTALS</h2>
+                
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th>SUBTOTAL</th>
+                                <td>$125</td>
+                            </tr>
+                            <tr>
+                                <th>SHIPPING</th>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            <input id = "free-shipping" type="radio" value="Free Shipping" name="free-shipping" >
+                                            <label for="free-shipping">Free Shipping</label>
+                                        </li>
+                                        <li>
+                                            <input id = "local-pickup" type="radio" value="Local Pickup" >
+                                            <label for = "lokal-pickup">Local Pickup</label>
+                                        </li>
+                                        <li>
+                                            <input id = "flat-rate" type="radio" value="Flat-rate" >
+                                            <label for = "flat-rate">Flat-rate:$10</label>
+                                        </li>
+                                    </ul>
+                                    <p class="shipping-to-country">Shipping to Azerbaijan</p>
+                                    <p class="change-address">Change Address</p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th>Total</th>
+                                <td class="cart-totals-price">$125</td>
+                            </tr>
+                          
+                        </tbody>
+                    </table>
+              
+                <div class="proceed-to-checkout">
+                    <a>PROCEED TO CHEKOUT</a>
+                </div>
+                
             </div>
 
         </div>
